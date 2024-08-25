@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.main {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    
+    margin: 10%;
+    margin-bottom: 20px;
+    padding: 20px 5px;
+    border: 1px solid grey;
+    background-color: transparent;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 1px 12px grey;
+}
+
+.heading {
+    font-size: 30px;
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+
+
+.continue {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    align-items: center;
+
+}
+
+.google {
+    cursor: pointer;
+    width: 80%;
+    padding: 5px;
+    border-radius: 20px;
+    height: auto;
+    margin: 5px 0;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.google:active{
+    background-color: rgb(220, 224, 225);
+}
+
+
+.or {
+    font-size: 15px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.or::before,
+.or::after {
+    flex: 1;
+    content: '';
+    padding: 0.1px;
+    background-color: rgb(195, 195, 195);
+    margin: 20px;
+}
+
+.inputia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+
+.email {
+    width: auto;
+    height: auto;
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.password {
+    width: auto;
+    height: auto;
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.forgot-content {
+    font-size: 11px;
+    position: relative;
+    left: -64px;
+    color: rgb(54, 54, 245);
+    height: auto;    
+    cursor: pointer;
+
+}
+
+.forgot-content:active{
+    color: lightblue;
+}
+
+.login-btn{
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 15px;
+    background:  lightblue, transparent;
+    border: 1px solid #bdb8b8;
+    color: blue;
+    border-radius: 20px;
+    padding: 7px 19px;
+}
+
+.login-btn:active{
+    background-color: transparent;
+}
+
