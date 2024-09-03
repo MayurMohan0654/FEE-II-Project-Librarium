@@ -1,0 +1,170 @@
+#navbar{
+    font-size: 18px;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-right: 10%; 
+}
+#navbar >div{
+    margin-top: 50px;
+}
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	
+}
+button:hover{
+    background-color:#545252;
+    width: 110%;
+   border-radius: 3px;
+    transition: all 0.2s ease;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+#background-image-div {
+    background-image: url(images/sample_image.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    width: 100%; 
+   
+  
+}
+
+#LOGO{
+   margin-top: 50px;
+    margin-left: 20%;
+    width:60%;
+    font-size: 30px;
+  
+}
+
+#heading{
+
+    font-size: 70px;
+    font-family: sans-serif; 
+    display: flex;
+    color: white;
+   
+}
+
+
+#support_heading{
+   display: flex;
+   justify-content: center;
+   font-family: sans-serif;
+   font-weight: bold;
+   font-size: 50px;
+   color: white;
+   margin: 0 0 20px;
+   
+}
+
+
+#search_bar 
+{  
+    display: flex;
+    justify-content: center;
+    
+    
+
+
+
+}
+#search_bar input {
+    border-radius: 99px; 
+width: 40%;
+padding:  18px 20px 18px 45px;
+
+
+
+}
+#support_para{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 22px;
+   margin-left: 10%;
+    margin-right: 20%;
+
+}
+#para_hr{
+    width: 80%;
+}
+#help_topic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    flex: 0 0 30%; 
+    margin-bottom: 20px;
+}
+.topic_containers {
+    flex: 0 0 30%; 
+    margin-bottom: 20px; 
+  
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+ul li {
+    display: inline; 
+    margin-right: 10px; }
+.container_data{
+    font-weight: normal;
+}
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(249, 247, 245);
+    padding: 2px; 
+}
+
+
+
+#copyright {
+    justify-content: flex-start; 
+}
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1a1a2e;
+    padding: 20px 10px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    
+}
+
+
+
+#main {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+#nav_links ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#copyright {
+    text-align: center;
+}
+

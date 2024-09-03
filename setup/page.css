@@ -1,0 +1,281 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    background-color: #ebeff3;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.nav{
+    height: 8vh;
+    display: flex;
+    margin: 1px 0px;
+    box-shadow: 1px 1px 1px 1px rgb(217, 212, 212);
+}
+.nav-1{
+    position: fixed;
+    height: 8vh;
+    background-color: black;
+    color: white;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-2{
+    background-color: white;
+    padding-left: 20%;
+    width: 80%;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 2px;
+    padding: 1vh;
+
+}
+.search-icon{
+    background: url('logo.png') no-repeat center center;
+    height: 6vh;
+    width: 6vh;
+    margin-left: 5vh;
+    background-size: contain;
+}
+.search-area{
+    border: none;
+    padding: 2vh;
+    width: 80%;    
+}
+
+.login{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+.logo{
+    background: url('https://png.pngtree.com/png-vector/20191110/ourmid/pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_1978396.jpg') no-repeat center center;
+    background-size: contain;
+    height: 8vh;
+    width: 30%;
+}
+.username{
+    width: 70%;
+    margin: 1vh;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.navigaiton{
+    position: fixed;
+    top: 8vh;
+    left: 0;
+    width: 20%; 
+    height: 100vh;
+    background-color: #282E48;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dashboard{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+}
+.dashboard:hover{
+    background-color: black;
+}
+.event{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 12vh;
+    border-radius: 5px;
+    width: 80%;
+    height: 26vh;
+    background-color: #555c82;
+    box-shadow: 1px 1px black;
+    h5{
+        color: #88898b;
+    }
+    p {
+        font-size: 0.8vw;
+        text-align: center;
+    }
+}
+
+.content{
+    width: 80%;
+    height: 100%;
+    margin-left: 17%;
+    background-color: #ebeff3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content-title{
+    margin: 2vh 2vw;
+    display: grid;
+    grid-template-columns: 4vw 44vw 14vw 15vw;
+    width: 95%;
+    height: 5%;
+
+}
+.content-title h2{
+    font-size: 1.4vw;
+}
+.content-title h1{
+    font-size: 1.4vw;
+    position: relative;
+    left: -7%;
+}
+.content-mat{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-area{
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 30% 30% 30% 30% 30% 30%;
+    row-gap: 2vh;
+    column-gap: 2vh;
+
+}
+.card{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(216, 213, 213);
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-img{
+    width: 30%;
+    height: 80%;
+    
+}
+.card-data{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.card-data p{
+    margin-bottom: 0.5vh;
+    font-size: 1vw;
+}
+.card-data h1, h5{
+    font-size: 0.8vw;
+}
+.check{
+    background-color: white;
+    border: 1.5px solid tomato;
+    color: tomato;
+    text-align: center;
+    margin: 1vh 0vh;
+    padding: 1.5vh 1vh;
+    border-radius: 1vh;
+}
+.check:hover{
+    background-color: tomato;
+    color: white;
+    border: 1px solid white;
+}
+.noti{
+    width: 20%;
+    height: 100%;
+    margin: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    flex-direction: column;
+}
+.notice{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(216, 213, 213);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price-list{
+    position: relative;
+    left: -5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    p{
+        color: #88898b;
+    }
+}
+.price-list h1{
+    font-size: 1.4vw;
+}
+.box{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    border: 1px solid rgb(190, 184, 184);
+}
+.box h1{
+
+    font-size: 0.8vw;
+    position: relative;
+    right: -7%;
+    bottom: -4%;
+    padding-top: 1vh;
+    
+}
+.box p{
+    color: #88898b;
+    font-size: 0.9vw;
+    position: relative;
+    right: -10%;
+    bottom: -4%;
+    padding-bottom: 1vh;
+    
+}
+.box:hover{
+    cursor: pointer;
+    background-color: #ebeff3;
+}
